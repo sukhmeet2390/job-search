@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+{{>head}}
+
+<body class="container">
+	<div>
+    <h1>Add Job</h1>
+    <form action="/api/job" method="post">
+      <input type="text" name="title" placeholder="Title"/><br/>
+      <input type="text" name="description" placeholder="description"/><br/>
+      <button type="submit"> Create Job</button>
+    </form>
+  </div>
+
+
+	<!-- Turbo library imports: jQuery, Turbo CDN, sample app.js -->
+	<script type="text/javascript" src="/dist/js/vendor.min.js"></script>
+	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/turbo.min.js"></script>
+
+</body>
+</html>
